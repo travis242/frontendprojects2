@@ -81,7 +81,7 @@ function addAnimations() {
     document.getElementById('pentagon').style.animation = 'pentagonAnimation 1.3s ease-in-out 2s forwards';
     setTimeout(() => {
         compareSection.style.transform = 'rotateX(0deg) translateX(50%)';
-        mainSection.style.display = 'none';
+        mainSection.style.visibility = 'hidden';
     }, 2800);
 }
 
@@ -213,7 +213,7 @@ function resetDefault() {
     // main section animated comapare section closed
     compareSection.style.transform = 'rotateX(90deg) translateX(50%)';
     setTimeout(() => {
-        mainSection.style.display = 'block';
+        mainSection.style.visibility = 'visible';
         document.getElementById('scissors').style.animation = 'scissorsReverse 1s ease-in 0.5s reverse backwards';
         document.getElementById('rock').style.animation = 'rockLizardReverse 1s ease-in 1s 1 reverse backwards';
         document.getElementById('paper').style.animation = 'paperSpockReverse 1s ease-in 1.5s 1 reverse backwards';

@@ -443,7 +443,7 @@ body::before {
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
   color: var(--color-text-2);
-  font-size: 11px;
+  font-size: 15px;
   text-align: center;
 }
 
